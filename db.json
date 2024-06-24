@@ -13,9 +13,15 @@
       "description": ""
     },
     {
-      "id": "3fe92243-8444-4ee4-bb39-b5460b8919f1",
-      "name": "The Hobbit",
-      "earnings": "100000000",
+      "id": "e5f4dc4f-10cf-486e-b6d8-45d0741d0012",
+      "name": "created book",
+      "earnings": "5000",
+      "description": null
+    },
+    {
+      "id": "28c27e30-6f76-4537-94e1-d80de2e6febf",
+      "name": "created book edited 4",
+      "earnings": "5000",
       "description": null
     }
   ]

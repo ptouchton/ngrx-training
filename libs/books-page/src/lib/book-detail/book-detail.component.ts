@@ -18,7 +18,7 @@ export class BookDetailComponent {
     description: new FormControl(''),
   });
 
-  @Input() set book(book: BookModel | null) {
+  @Input() set book(book: BookModel | null | undefined) {
     this.bookForm.reset();
     this.originalBook = undefined;
 

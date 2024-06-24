@@ -35,7 +35,7 @@ export class BooksService {
     );
   }
 
-  update(id: string, updates: BookRequiredProps) {
+  update(id: string, updates: Partial<BookRequiredProps>) {
     return this.http.patch<BookModel>(
       `${BASE_URL}/${id}`,
       JSON.stringify(updates),
